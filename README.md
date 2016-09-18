@@ -48,7 +48,7 @@ II. Q & A:
 
   3. How would you scale your implementation past three nodes?
   
-     Seems like a good use-case for a load balancer, with redundant nodes serving requests behind it...but if three separate "endpoints" need to be hit as part of the requirements, this might be a potential violation. Without a load-balancer...unless you do something like create [multiple] DNS "A" records all pointing at your ELB or other load-balancer, to meet the requirement.
+     Seems like a good use-case for a load balancer, with redundant nodes serving requests behind it...but if three separate "endpoints" need to be hit as part of the requirements, this might be a potential violation...unless you do something like create multiple DNS "CNAME" records all pointing at your ELB or other load-balancer, to meet the requirement.
 
   
 

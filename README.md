@@ -2,9 +2,17 @@
 
 I. instructions:
 
-  1. apt-get install python-pip or yum install python-pip
-  2. pip install -r requirements.txt
-  3. Local-mode:
+  1. ~~~~ 
+     apt-get install python-pip
+     ~~~~ 
+      or 
+     ~~~~ 
+     yum install python-pip
+     ~~~~
+  2. ~~~~
+     pip install -r requirements.txt
+     ~~~~
+  3. Running in "local-mode":
   
     a) start three instances of the server, the recommended way being:
     ~~~~ 

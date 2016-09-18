@@ -1,6 +1,6 @@
 # three_nodes
 
-I. instructions:
+I. instructions after cloning:
 
   1. ~~~~ 
      apt-get install python-pip
@@ -11,19 +11,24 @@ I. instructions:
      ~~~~ 
      yum install python-pip
      ~~~~
+
   2. ~~~~
      pip install -r requirements.txt
      ~~~~
+
   3. Running in "local-mode":
   
     a) start three instances of the server, the recommended way being:
+
     ~~~~ 
     chmod +x three_nodes.py
     ./three_nodes.py 127.0.0.1 8081 &
     ./three_nodes.py 127.0.0.2 8082 &
     ./three_nodes.py 127.0.0.3 8083 & 
     ~~~~
+    
     b) you can then use "curl" to request from any of the three "nodes", for examlpe:
+    
     ~~~~ 
     curl http://127.0.0.3:8083/ 
     ~~~~

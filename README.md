@@ -2,7 +2,8 @@
 
 I. instructions:
 
-  1. ~~~~ 
+  1. 
+     ~~~~ 
      apt-get install python-pip
      ~~~~ 
       or 

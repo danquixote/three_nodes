@@ -32,7 +32,7 @@ I. instructions after cloning:
     curl http://127.0.0.3:8083/ 
     ~~~~
 
-  4. to run on separate servers, update the ".py" script global varialbe "SERVERS" with the correct addresses and IPs, prior to proceeding to step 3, then, run the python script on each separate physical box or VM.
+  4. to run on separate servers, update the ".py" script global varialbe "SERVERS" with the correct addresses and IPs, prior to proceeding to step 1, then, run the python script on each separate physical box or VM.
 
 
 II. Q & A:
